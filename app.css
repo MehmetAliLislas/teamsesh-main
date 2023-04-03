@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.eapps-remove-link {
+  visibility: hidden !important;
+}
+
+#yottie_1 > .yottie-widget-inner > a {
+  visibility: hidden !important;
+}
+
+#yottie_1 > div.yottie-widget-inner > a:last-child {
+  visibility: visible !important;
+}
